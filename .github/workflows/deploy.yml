@@ -1,4 +1,4 @@
-name: Node CI
+name: deploy vuepress
 
 on: [push]
 
@@ -17,11 +17,11 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: install yarn
-      run: npm install yarn -g
-    - name: yarn add deploy
-      run: |
-        yarn
-        yarn deploy
+    - name: Build and Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v2
       env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: docs/.vuepress/dist
+        BUILD_SCRIPT: npm install && npm run build
         CI: true
