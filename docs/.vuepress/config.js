@@ -2,6 +2,13 @@ module.exports = {
   base: '/zhengzhou_house_knowledge/',
   title: '郑州买房攻略',
   description: '郑州买房攻略',
+  plugins: [
+    '@vuepress/back-to-top',
+    '@vuepress/medium-zoom',
+    {
+      'ga': 'UA-98939871-5'
+    }
+  ],
   head: [
     // ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js' }],
     // ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js' }],
@@ -9,6 +16,12 @@ module.exports = {
     ['link', { rel: 'icon', href: '/imgs/house.ico' }]
   ],
   themeConfig: {
+    repo: 'cyyjs/zhengzhou_house_knowledge',
+    editLinks: true,
+    docsDir: 'docs',
+    editLinkText: '改善此页面！',
+    smoothScroll: true,
+    lastUpdated: '更新时间', // string | boolean
     search: true,
     sidebarDepth: 2,
     displayAllHeaders: true,
