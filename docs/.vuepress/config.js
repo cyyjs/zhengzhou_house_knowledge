@@ -10,9 +10,7 @@ module.exports = {
     }
   ],
   head: [
-    // ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js' }],
-    // ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js' }],
-    // ['link', { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css' }],
+    ['meta', {name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;'}],
     ['link', { rel: 'icon', href: '/imgs/house.ico' }]
   ],
   themeConfig: {
@@ -32,8 +30,7 @@ module.exports = {
       // { text: '郑州板块', link: '/introduction/' },
       { text: '地铁交通', link: '/subway/' },
       { text: '楼盘信息', link: '/properties/' },
-      { text: '攻略', link: '/helper/' },
-      { text: 'GitHub', link: 'https://github.com/cyyjs/zhengzhou_house_knowledge' }
+      { text: '攻略', link: '/helper/' }
     ],
     sidebar: 'auto'
   }
