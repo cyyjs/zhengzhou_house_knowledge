@@ -7,9 +7,7 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "vuepress build docs && gh-pages -d docs/.vuepress/dist",
-    "push": "gh-pages -d docs/.vuepress/dist"
+    "build": "vuepress build docs"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",

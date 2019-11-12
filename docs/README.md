@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /imgs/house.ico
-heroText: 郑州买房知识
+heroText: 郑州买房攻略
 tagline: 郑州买房需要知道的
 actionText: 查看更多 →
 actionLink: /concept/

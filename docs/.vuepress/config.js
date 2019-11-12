@@ -1,8 +1,11 @@
 module.exports = {
   base: '/zhengzhou_house_knowledge/',
-  title: '郑州买房知识',
-  description: '郑州买房知识',
+  title: '郑州买房攻略',
+  description: '郑州买房攻略',
   head: [
+    // ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js' }],
+    // ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js' }],
+    // ['link', { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css' }],
     ['link', { rel: 'icon', href: '/imgs/house.ico' }]
   ],
   themeConfig: {
