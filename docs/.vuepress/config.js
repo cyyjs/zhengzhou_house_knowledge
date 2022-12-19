@@ -29,8 +29,9 @@ module.exports = {
       { text: '相关政策', link: '/policy/' },
       // { text: '郑州板块', link: '/introduction/' },
       { text: '地铁交通', link: '/subway/' },
-      { text: '楼盘信息', link: '/properties/' },
-      { text: '攻略', link: '/helper/' }
+      { text: '交房提醒', link: '/finally/' },
+      // { text: '楼盘信息', link: '/properties/' },
+      // { text: '攻略', link: '/helper/' }
     ],
     sidebar: 'auto'
   }
